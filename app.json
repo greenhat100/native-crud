@@ -36,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "EXPO_PUBLIC_APPWRITE_ENDPOINT": "https://cloud.appwrite.io/v1",
+      "EXPO_PUBLIC_APPWRITE_PROJECT_ID": "67ce0c55000f93dbeb99",
+      "EXPO_PUBLIC_APPWRITE_DB_ID": "notes-db",
+      "EXPO_PUBLIC_APPWRITE_COL_NOTES_ID": "notes",
+      "EXPO_PUBLIC_APPWRITE_BUNDLE_ID": "notes-app-ios",
+      "EXPO_PUBLIC_APPWRITE_PACKAGE_NAME": "notes-app"
     }
   }
 }
