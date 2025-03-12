@@ -10,7 +10,7 @@ const noteService = {
   async getNotes(userId) {
     if (!userId) {
       console.error('Error: User ID missing');
-      return { data: [], error: 'User ID is missing' };
+      return { data: [], error: 'User ID is stillgit add missing' }; 
     }
   
     console.log('userId is:', userId);  // Log to check userId
